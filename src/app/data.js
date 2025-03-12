@@ -4,7 +4,7 @@ export const projectsData = [
     id: 1,
     name: "Portfolio",
     description: "Describe myself",
-    date: "10-03-2925",
+    date: "10-03-2025",
   },
   {
     id: 2,
@@ -17,22 +17,22 @@ export const projectsData = [
     id: 3,
     name: "Modetour Network",
     description: "Travel website",
-    date: "2023-04-10",
-    demoLink: "https://budgetplanner.example.com",
+    date: "10-04-2023",
+    // demoLink: "https://budgetplanner.example.com",
   },
   {
     id: 4,
     name: "An Nam Electric Insurance",
     description: "ERP System",
-    date: "20-05-2022",
-    demoLink: "https://healthbeat.example.com",
+    date: "10-02-2023",
+    // demoLink: "https://healthbeat.example.com",
   },
   {
     id: 5,
     name: "Van Phat Hung Construction Management",
     description: "ERP System",
     date: "01-09-2022",
-    demoLink: "https://recipefinder.example.com",
+    // demoLink: "https://recipefinder.example.com",
   }
 ];
 

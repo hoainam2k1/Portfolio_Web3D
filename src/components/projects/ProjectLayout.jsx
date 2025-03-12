@@ -7,11 +7,12 @@ const item = {
 };
 
 const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink }) => {
+const ProjectLayout = ({ name, description, date  }) => { //demoLink
   return (
     <ProjectLink
       variants={item}
-      href={demoLink}
+      // href={demoLink}
+      href=""
       target={"_blank"}
       className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
     >
@@ -21,7 +22,7 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
       </div>
       <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
       <p className="text-muted sm:text-foreground">
-        {new Date(date).toDateString()}
+        {new Date(date).toLocaleDateString()}
       </p>
     </ProjectLink>
   );
